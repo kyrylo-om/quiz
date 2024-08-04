@@ -1,0 +1,108 @@
+.quediv{	
+	background-color: white; 
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+	height: 40px; 
+	padding: 20px; 
+	border-radius: 30px; 
+	margin: 50px;
+	width: 80%;
+	margin-left: 170px
+}
+.text {
+	font-family: system-ui; 
+	font-size: 24px;
+	font-weight: 350; 
+	text-align: center; 
+}
+.header {
+	background-color: white;
+	height: 100px;
+	padding-top: 30px;
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+	border-radius: 30px
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.ansdiv {
+	background-color: white; 
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+	height: 30%; 
+	padding: 20px; 
+	border-radius: 30px; 
+	width: 31.5%;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	font-size: 30px;
+	font-family: system-ui;
+	font-weight: 350;
+}
+.ansdiv:hover {
+	font-weight: 499;
+	background: linear-gradient(to top right, white, #f4e9ff);
+}
+.footer {
+	background-color: white; 
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+	height: 59px; 
+	padding: 20px; 
+	border-radius: 30px; 
+	width: 40%;
+	margin-left: 28%;
+	margin-top: 20px;
+}
+.ansdiv:focus { 
+	outline: none; 
+}
+.unchoosed {
+	background-color: #f9f9f9;
+	margin-left: 32%;
+	width: 40%;
+	border-radius: 30px;
+	height: 60px;
+	font-size: 18px;
+	border: none;
+	font-family: system-ui;
+	font-weight: 400;
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+}
+.unchoosed:focus {
+	outline: none
+}
+.choosed {
+	background: linear-gradient(to top right, #e4caff, #c48aff);
+	margin-left: 32%;
+	width: 40%;
+	border-radius: 30px;
+	height: 60px;
+	font-size: 18px;
+	border: solid #bd83f7;
+	cursor: pointer;
+	font-family: system-ui;
+	font-weight: 600;
+	color: white;
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+}
+.choosed:focus {
+	outline: none
+}
+.choosed:hover {
+	background: linear-gradient(to bottom left, #e4caff, #c48aff);
+}
+.disabled {
+	background-color: white; 
+	box-shadow: -1px 6px 9px rgb(0 0 0 / 15%);
+	height: 180px; 
+	padding: 20px; 
+	border-radius: 30px; 
+	width: 31.5%;
+	border: none;
+	font-size: 30px;
+	font-family: system-ui;
+	font-weight: 350;
+}
+.disabled:focus {
+	outline: none
+}
